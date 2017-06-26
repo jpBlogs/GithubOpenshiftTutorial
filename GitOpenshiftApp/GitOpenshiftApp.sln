@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0461BA53-CB5B-4330-9B98-5CFF7DD3E54C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE27D470-374C-4E60-8A33-BAB544B0A59F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GitOpenshiftApp", "src\GitOpenshiftApp\GitOpenshiftApp.xproj", "{10689140-1F2B-4010-BCB1-CCE2C8E5A739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10689140-1F2B-4010-BCB1-CCE2C8E5A739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10689140-1F2B-4010-BCB1-CCE2C8E5A739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10689140-1F2B-4010-BCB1-CCE2C8E5A739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10689140-1F2B-4010-BCB1-CCE2C8E5A739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10689140-1F2B-4010-BCB1-CCE2C8E5A739} = {0461BA53-CB5B-4330-9B98-5CFF7DD3E54C}
+	EndGlobalSection
+EndGlobal
